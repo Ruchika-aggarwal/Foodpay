@@ -1,0 +1,50 @@
+.carousel .item {
+    height: 300px;
+  }
+  
+  .item img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-height: 300px;
+  }
+  #account{
+    display: none; 
+      width: 500px;
+      height: 500px;
+      background-color: aquamarine;
+      margin-top: 5px;
+  }
+  .middle{
+      background-color:#E3AFBC;
+      
+  }
+  #body{
+    background-color:rgb(171, 224, 245);
+  }
+  .form-control {
+    width: 100%;
+    padding: 10px 0;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #666;
+    color: #ddd;
+    font-size: 14px;
+    text-transform: uppercase;
+    outline: none;
+    transition: border-color .2s;
+  }
+  .form-control::placeholder {
+    color: #666;
+  }
+  
+  .form-control:focus {
+    border-bottom-color: #ddd;
+  }
+  .style{
+    color: #9A1750;
+    font-weight: 600;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+ 
